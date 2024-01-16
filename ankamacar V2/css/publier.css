@@ -1,0 +1,163 @@
+.publier{
+    margin: 7% 10%;
+    vertical-align: middle;
+    padding-bottom: 10%;
+}
+
+.publier:nth-of-type(2){
+    margin: 7% 10%;
+    vertical-align: middle;
+    padding-bottom: 20%;
+
+}
+
+.resulJesuis{
+    border-style: solid;
+    border-radius: 15px;
+    vertical-align: middle;
+}
+
+.result{
+    border-style: solid;
+    border-radius: 15px;
+}
+
+.paramPublier {
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 25px 50px;
+}
+
+.paramPublier > h2 {
+    font-size: 1.5em;
+    font-weight: normal;
+}
+
+.paramPublier > .recup-choix {
+    font-size: 1.3em;
+    list-style-type: none;
+}
+
+.paramPublier > .recup-choix > li {
+    margin: 10px 0;
+}
+
+.paramPublier > .recup-choix input[type="checkbox"] {
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+}
+
+.paramPublier > .recup-choix label {
+    vertical-align: middle;
+}
+
+.paramPublier > .recup-choix input[type="text"] {
+    padding: 5px;
+    width: 50%;
+}
+
+.paramPublier > article > label {
+    font-size: 1.5em;
+}
+
+.paramPublier .choix-jours {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.paramPublier .choix-jours li {
+    min-width: 100px;
+}
+
+.paramPublier .choix-jours input[type="checkbox"] {
+    vertical-align: middle;
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+}
+
+.paramPublier .submit {
+    margin-top: 25px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.paramPublier .btn-enligne {
+    padding: 10px 25px;
+    border: 1px solid #fec80d;
+    border-radius: 10px;
+    background-color: #fec80d;
+    color: white;
+    font-family: 'ankama';
+    letter-spacing: 0.5px;
+    cursor: pointer;
+}
+
+.btn-enligne:hover{
+    background-color: rgb(205, 163, 10);
+}
+
+.btn-enligne > a  {
+    text-decoration: none;
+    color: white; 
+}
+
+.paramPublier .btn-retour {
+    padding: 10px 25px;
+    border: 1px solid lightseagreen;
+    border-radius: 10px;
+    background-color: lightseagreen;
+    color: white;
+    font-family: 'ankama';
+    letter-spacing: 0.5px;
+    cursor: pointer;
+}
+
+.btn-retour:hover{
+    background-color: rgb(28, 156, 149);
+}
+
+.btn-retour > a  {
+    text-decoration: none;
+    color: white; 
+}
+
+.paramPublier > article:first-of-type > input {
+    vertical-align: middle;
+    padding: 5px;
+    width: 50%;
+}
+
+.paramPublier > article:nth-of-type(2) > input {
+    vertical-align: middle;
+    width: 50%;
+    margin-top: 2%; 
+    padding:1%; 
+}
+
+.paramPublier > article:nth-of-type(2) > input:first-of-type {
+    margin-bottom: 2%;
+}
+
+input::placeholder{
+    font-family: 'ankama';
+    letter-spacing: 0.5px;
+}
+
+input{
+    font-family: 'ankama';
+    letter-spacing: 0.5px;
+}
+
+.inputNumber{
+    height: 80% !important;
+}
+
+.inputNumber{
+    width: 30%;
+    padding: 0.7%;
+}

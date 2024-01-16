@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ankamacar</title>
+  <link rel="stylesheet" href="./css/modif-profil.css" />
+  <link rel="stylesheet" href="./css/font.css" />
+  <link rel="stylesheet" href="./css/nav-footer.css" />
+
+</head>
+
+<body>
+  <nav id="nav-bar">
+    <div id="logo">
+      <img src="img/logo-ankamacar.png" alt="Logo Ankamacar" />
+    </div>
+    <div id="nav-menu">
+      <a href="./acceuil.html">Accueil</a>
+      <a href="./publier.html">Publier un trajet</a>
+      <a href="./location.html">Service de location</a>
+      <a class="nav-active" href="./profil.html">Profil</a>
+    </div>
+  </nav>
+
+  <section class="profil">
+    <section class="paramProfil">
+      <section class="img-profil">
+        <img alt="photo-profil" src="./img/user.png">
+      </section>
+      <h2>Mes infos: </h2>
+      <p class="legende">Cocher les cases correspondante aux information qui seront visible par touts les utilisateurs</p>
+      <ul class="info">
+        <li>
+          <label>Nom : </label>
+        <li class="inLine">
+          <input type="text" placeholder="DECLERCQ" /><input type="checkbox" checked>
+        </li>
+        </li>
+        <li>
+          <label>Prénom : </label>
+        </li>
+        <li class="inLine"> 
+          <input type="text" placeholder="Tifaine" /><input type="checkbox" checked>
+        </li>
+        <li>
+          </input><label>Identifiant : </label>
+        </li>
+        <li class="inLine">
+          <input type="text" placeholder="DECLERCQ.Tifaine" /><input type="checkbox" checked>
+        </li>
+        <li>
+          </input><label>Email : </label>
+        </li>
+        <li class="inLine">
+          <input type="text" placeholder="tifaine.declercq.etu@univ-lille.fr" /><input type="checkbox" checked>
+        </li>
+        <li>
+          <label>Tel : </label>
+        </li>
+        <li class="inLine">
+          <input type="text" placeholder="06 00 00 00 00" /><input type="checkbox">
+        </li>
+        <li>
+          <label>Adresse : </label>
+        </li>
+        <li class="inLine">
+          <input type="text" placeholder="Université de Lille, 42 Rue Paul Duez, 59000 Lille" /><input type="checkbox">
+        </li>
+        <li>
+          <label>Photo de profil : </label>
+        </li>
+        <li>
+          <input type="file" class="inputfile">
+        </li>
+
+      </ul>
+      <article class="submit">
+        <button class="btn-modif-param" id="btn"><a href="modif-profil-mdp.html#btn">Modifier mon mot de passe</a></button>
+      </article>
+      <article class="submit">
+        <button class="btn-modif-param"><a href="profil.html">Enregistrer les modifications</a></button>
+      </article>
+
+    </section>
+  </section>
+  <footer>Ankamacar© 2023 | DECLERCQ Tifaine - NOISETTE Thomas - POLLET Florian</footer>
+</body>
+
+</html>

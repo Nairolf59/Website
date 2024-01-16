@@ -1,0 +1,139 @@
+.profil{
+  margin: 7% 20%; 
+  vertical-align: middle;
+  width:60%;
+}
+
+.paramProfil {
+  border: 1px solid black;
+  border-radius: 25px;
+  padding: 25px 50px;
+  position: relative;
+}
+
+.paramProfil > .img-profil {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 100px 25px 100px 100px;
+  box-shadow: 3px 3px 15px #000000;
+  overflow: hidden;
+  width: 200px;
+  height: 200px;
+}
+
+.paramProfil > .img-profil > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.paramProfil > h2 {
+  font-size: 1.5em;
+  font-weight: normal;
+}
+
+.paramProfil > .info {
+  font-size: 1.3em;
+  list-style-type: none;
+}
+
+.paramProfil > .info > li {
+  margin: 10px 0;
+}
+
+.paramProfil > .info label {
+  vertical-align: middle;
+}
+
+.paramProfil > article > label {
+  font-size: 1.5em;
+}
+
+.paramProfil .submit {
+  margin-top: 25px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.paramProfil .btn-modif-param {
+  padding: 10px 25px;
+  border: 1px solid #e63a21;
+  border-radius: 10px;
+  background-color: #e63a21;
+  color: white;
+  font-family: 'ankama';
+  letter-spacing: 0.5px;
+  cursor: pointer;
+}
+
+.paramProfil .btn-modif-param:hover {
+  border: 1px solid #c5331c;
+  background-color: #c5331c;
+}
+
+.paramProfil > article:first-of-type > input {
+  vertical-align: middle;
+  padding: 5px;
+  width: 50%;
+}
+
+.paramProfil > .info input {
+    padding: 5px;
+    width: 50%;
+    font-family: 'ankama';
+    letter-spacing: 0.5px;
+}
+
+.btn-modif-param > a{
+    text-decoration: none;
+    color: white; 
+}
+
+.inputfile{
+  width:100%
+}
+
+.inputfile::file-selector-button {
+  margin-right: 20px;
+  border: none;
+  background: lightseagreen;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+  transition: background .2s ease-in-out;
+  font-family: 'ankama';
+  letter-spacing: 0.5px;
+}
+
+.inputfile::file-selector-button:hover {
+  background: rgb(28, 156, 149);
+}
+
+.inLine{
+  display: flex;
+  align-items: center;
+  width: 90%; 
+}
+
+.inLine > input[type="checkbox"]{
+  justify-content: left;
+}
+
+.legende{
+  font-size: smaller;
+}
+
+.legende-reinit{
+  font-size: large;
+  text-align: center;
+}
+
+.profil-modif{
+  margin: 7% 20%; 
+  vertical-align: middle;
+  width:60%;
+  padding-bottom: 10%;
+}

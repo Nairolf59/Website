@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ankamacar</title>
+  <link rel="stylesheet" href="./css/profil.css" />
+  <link rel="stylesheet" href="./css/font.css" />
+  <link rel="stylesheet" href="./css/nav-footer.css" />
+
+</head>
+
+<body>
+  <nav id="nav-bar">
+    <div id="logo">
+      <img src="img/logo-ankamacar.png" alt="Logo Ankamacar" />
+    </div>
+    <div id="nav-menu">
+      <a href="./acceuil.html">Accueil</a>
+      <a href="./publier.html">Publier un trajet</a>
+      <a href="./location.html">Service de location</a>
+      <a class="nav-active" href="./profil.html">Profil</a>
+    </div>
+  </nav>
+
+  <section class="profil">
+    <section class="paramProfil">
+      <section class="img-profil">
+        <img alt="photo-profil" src="./img/user.png">
+      </section>
+      <h2>Mes infos: </h2>
+      <ul class="info">
+        <li>
+          <label>Nom : DECLERCQ</label>
+        </li>
+        <li>
+          <label>Prénom : Tifaine</label>
+        </li>
+        <li>
+          </input><label>Identifiant : DECLERCQ.tifaine</label>
+        </li>
+        <li>
+          </input><label>Email : tifaine.declercq.etu@univ-lille.fr</label>
+        </li>
+        <li>
+          <label>Tel : 06 00 00 00 00</label>
+        </li>
+        <li>
+          <label>Adresse : Université de Lille, 42 Rue Paul Duez, 59000 Lille</label>
+        </li>
+        <li>
+          <label>Nombre d'étoiles en moyenne : 3.5/5 ⭐</label>
+        </li>
+
+      </ul>
+      <article class="submit">
+        <button class="btn-modif-param"><a href="modif-profil.html">Modifier mes informations</a></button>
+      </article>
+
+    </section>
+  </section>
+
+  <section class="seccomm">
+    <section class="paramProfil">
+      <h2>Commentaires laissés par les autres utilisateurs : </h2>
+
+      <section class="commentaire" id ="allcomm">
+        <table class="tabcomm" style="width :100%">
+          <thead>
+            <tr>
+              <th colspan="6">Commentaires</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td colspan="3">Je conduisait</td>
+              <td colspan="3">J'étais conduis</td>
+            </tr>
+            <tr>
+            <tr>
+              <td class="label">Utilisateur</td>
+              <td class="label">Commentaire</td>
+              <td class="label">Etoiles</td>
+              <td class="label">Utilisateur</td>
+              <td class="label">Commentaire</td>
+              <td class="label">Etoiles</td>
+            </tr>
+            <tr>
+              <td class="label">GU.BNN</td>
+              <td class="label">Un peu froid dans la voitue, à l'heure, tres agréable</td>
+              <td class="label">⭐⭐⭐/5</td>
+              <td class="label">Marie.Despret</td>
+              <td class="label">Bien</td>
+              <td class="label">⭐⭐/5</td>
+            </tr>
+            <tr>
+              <td class="label">Marie.despret</td>
+              <td class="label">Super, trajet trés agréable!</td>
+              *<td class="label">⭐⭐⭐⭐/5</td>
+              <td class="label">THOM.BEL</td>
+              <td class="label">En retard, faire attention</td>
+              <td class="label">⭐/5</td>
+            </tr>
+          </tbody>
+        </table>
+        <article class="submit">
+          <button class="btn-modif-param" ><a href="all-comment.html">Voir tous les commentaires</a></button>
+        </article>
+      </section>
+      
+
+    </section>
+  </section>
+
+  <section class="historique">
+    <table class="tabHistorique" style="width :100%">
+      <thead>
+        <tr>
+          <th colspan="8">Mon historique</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td colspan="2">Location</td>
+          <td colspan="3">Covoiturage</td>
+          <td colspan="4">Trajet</td>
+        </tr>
+        <tr>
+        <tr>
+          <td class="label">Type</td>
+          <td class="label">Date-Durée</td>
+          <td class="label">Date</td>
+          <td class="label">Description</td>
+          <td class="noBorder"></td>
+          <td class="label">Date</td>
+          <td class="label">Descriptions</td>
+        </tr>
+        <tr>
+          <td class="label">Trotinette</td>
+          <td class="label">22/11/2022 - 1jour</td>
+          <td class="label">10/09/2023</td>
+          <td class="label">4 personnes - depuis la gare</td>
+          <td class="noBorder"><button class="btn-commentaire"><a href="commentaire-choixPersonne.html">laisser un
+            commentaire</a></button></td>
+          <td class="label">08/02/2023</td>
+          <td class="label">avec Marie.Despret - depuis E.Leclercq</td>
+          <td class="noBorder"><button class="btn-commentaire"><a href="commentaire.html">laisser un
+            commentaire</a></button></td>
+        </tr>
+        <tr>
+          <td class="label">Vélo</td>
+          <td class="label">18/04/2023 - 1 semaine</td>
+          <td class="label">14/03/2023</td>
+          <td class="label">2 personnes - depuis la place</td>
+          <td class="noBorder"><button class="btn-commentaire"><a href="commentaire-choixPersonne.html">laisser un
+            commentaire</a></button></td>
+          <td class="label">21/01/2023</td>
+          <td class="label">avec N.DEC - depuis la Gare</td>
+          <td class="noBorder"><button class="btn-commentaire"><a href="commentaire.html">laisser un
+            commentaire</a></button></td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+
+
+  <h1 class="titre">Statut de mes locations</h1>
+  <section class="trajet">
+    <section class="statutTrajet">
+
+    </section>
+    <section class="trajetAAccepter">
+      <section class="trajet">
+        <table class="tabTrajet tabbgyellow" style="width :100%">
+          <thead>
+            <tr>
+              <th class="label" colspan="4">Location en cours </th>
+              <th class="label" colspan="5">Prochaine location </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="label">Type de vehicule</td>
+              <td class="label">Durée</td>
+              <td class="label">Tarif</td>
+              <td class="label">Fin de la location le</td>
+              <td class="label">Type de vehicule</td>
+              <td class="label">Durée</td>
+              <td class="label">Tarif</td>
+              <td class="label">Date de début</td>
+              <td class="label">Date de fin</td>
+            </tr>
+            <tr>
+              <td class="label">Trotinette</td>
+              <td class="label">1jour</td>
+              <td class="label">15€</td>
+              <td class="label">Demain</td>
+              <td class="label">Vélo éléctrique</td>
+              <td class="label">1 semaine</td>
+              <td class="label">50€</td>
+              <td class="label">07/12/2023</td>
+              <td class="label">14/12/2023</td>
+            </tr>
+            <tr>
+              <td class="label noBorder"></td>
+              <td class="label noBorder"></td>
+              <td class="label noBorder"></td>
+              <td class="label noBorder"></td>
+              <td class="label">Voiture éléctrique</td>
+              <td class="label">1 mois</td>
+              <td class="label">500€</td>
+              <td class="label">01/01/2024</td>
+              <td class="label">01/02/2024</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </section>
+  </section>
+
+  <h1 class="titre">Statut de mes trajets</h1>
+  <section class="trajet">
+    <section class="statutTrajet">
+
+    </section>
+    <section class="trajetAAccepter">
+      <h2>Prochain trajet: </h2>
+      <section class="trajet">
+        <table class="tabTrajet tabbgyellow" style="width :100%">
+          <thead>
+            <tr>
+              <th class="label" colspan="8">Je conduit: </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="noBorder"></td>
+              <td class="label">Nom d'utilisateur</td>
+              <td class="label">Point de depart</td>
+              <td class="label">Point d'arriver</td>
+              <td class="label">Horaire</td>
+              <td class="label">Date</td>
+              <td class="noBorder"></td>
+            </tr>
+            <tr>
+              <td class="container-img-profil"><img src="img/user.png" id="img-profil"></td>
+              <td class="label">Marie.Despret</td>
+              <td class="label">la Gare</td>
+              <td class="label">Ankama</td>
+              <td class="label">8:00</td>
+              <td class="label">10/12/2023</td>
+              <td class="noBorder"><a href="mailto:tifainedeclercq@gmail.com"><button class="btn-contact">Contacter</button></a></td>
+              <td class="noBorder"><button class="btn-voir-profil"><a href="view-profil.html">voir le
+                    profil</a></button></td>
+            </tr>
+            <tr>
+              <td class="container-img-profil"><img src="img/user.png" id="img-profil"></td>
+              <td class="label">Nico.DPT</td>
+              <td class="label">la Gare</td>
+              <td class="label">Ankama</td>
+              <td class="label">8:00</td>
+              <td class="label">10/12/2023</td>
+              <td class="noBorder"><a href="mailto:tifainedeclercq@gmail.com"><button class="btn-contact">Contacter</button></a></td>
+              <td class="noBorder"><button class="btn-voir-profil"><a href="view-profil.html">voir le
+                    profil</a></button></td>
+            </tr>
+            <tr>
+              <td class="container-img-profil"><img src="img/user.png" id="img-profil"></td>
+              <td class="label">Marie.Despret</td>
+              <td class="label">la Gare</td>
+              <td class="label">Ankama</td>
+              <td class="label">7:30</td>
+              <td class="label">13/12/2023</td>
+              <td class="noBorder"><a href="mailto:tifainedeclercq@gmail.com"><button class="btn-contact">Contacter</button></a></td>
+              <td class="noBorder"><button class="btn-voir-profil"><a href="view-profil.html">voir le
+                    profil</a></button></td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section class="trajet">
+        <table class="tabTrajet tabbgred" style="width :100%">
+          <thead>
+            <tr>
+              <th class="label" colspan="8">Je suis conduit: </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="noBorder"></td>
+              <td class="label">Nom d'utilisateur</td>
+              <td class="label">Point de depart</td>
+              <td class="label">Point d'arriver</td>
+              <td class="label">Horaire</td>
+              <td class="label">Date</td>
+              <td class="noBorder"></td>
+              <td class="noBorder"></td>
+            </tr>
+            <tr>
+              <td class="container-img-profil"><img src="img/user.png" id="img-profil"></td>
+              <td class="label">Marie.Despret</td>
+              <td class="label">E.Leclercq</td>
+              <td class="label">Ankama</td>
+              <td class="label">8:30</td>
+              <td class="label">22/12/2023</td>
+              <td class="noBorder"><a href="mailto:tifainedeclercq@gmail.com"><button class="btn-contact">Contacter</button></a></td>
+              <td class="noBorder"><button class="btn-voir-profil"><a href="view-profil.html">voir le
+                    profil</a></button></td>
+            </tr>
+            <tr>
+              <td class="container-img-profil"><img src="img/user.png" id="img-profil"></td>
+              <td class="label">J.LLE</td>
+              <td class="label">la Place</td>
+              <td class="label">Ankama Games</td>
+              <td class="label">6:30</td>
+              <td class="label">29/12/2023</td>
+              <td class="noBorder"><a href="mailto:tifainedeclercq@gmail.com"><button class="btn-contact">Contacter</button></a></td>
+              <td class="noBorder"><button class="btn-voir-profil"><a href="view-profil.html">voir le
+                    profil</a></button></td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </section>
+    <section class="trajetAAccepter">
+      <h2>Mes demande de Covoiturage: </h2>
+      <section class="trajet">
+        <table class="tabTrajet tabbgyellow" style="width :100%">
+          <thead>
+            <tr>
+              <th class="label" colspan="9">Accepter de conduire:</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="noBorder"></td>
+              <td class="label">Nom d'utilisateur</td>
+              <td class="label">Point de depart</td>
+              <td class="label">Horaire</td>
+              <td class="label">Date</td>
+              <td class="noBorder"></td>
+              <td class="noBorder"></td>
+              <td class="noBorder"></td>
+              <td class="noBorder"></td>
+            </tr>
+            <tr>
+              <td class="container-img-profil"><img src="img/user.png" id="img-profil"></td>
+              <td class="label">Lucie.Bayart</td>
+              <td class="label">34 rue du quesnet sailly sur la lys</td>
+              <td class="label">8:30</td>
+              <td class="label">10/12/2023</td>
+              <td class="noBorder"><button class="btn-voir-profil"><a href="view-profil.html">voir le
+                    profil</a></button></td>
+              <td class="noBorder"><button class="btn-accepter">accepter</button></td>
+              <td class="noBorder"><button class="btn-refuser">refuser</button></td>
+              <td class="noBorder"><a href="mailto:tifainedeclercq@gmail.com"><button class="btn-contact">Contacter</button></a></td>
+
+            </tr>
+            <tr>
+              <td class="container-img-profil"><img src="img/user.png" id="img-profil"></td>
+              <td class="label">Phoebe.BRN</td>
+              <td class="label">le Gare</td>
+              <td class="label">7:30</td>
+              <td class="label">10/12/2023</td>
+              <td class="noBorder"><button class="btn-voir-profil"><a href="view-profil.html">voir le
+                    profil</a></button></td>
+              <td class="noBorder"><button class="btn-accepter">accepter</button></td>
+              <td class="noBorder"><button class="btn-refuser">refuser</button></td>
+              <td class="noBorder"><a href="mailto:tifainedeclercq@gmail.com"><button class="btn-contact">Contacter</button></a></td>
+            </tr>
+            <tr>
+              <td class="container-img-profil"><img src="img/user.png" id="img-profil"></td>
+              <td class="label">GU.BNN</td>
+              <td class="label">E.Leclercq</td>
+              <td class="label">8:00</td>
+              <td class="label">11/12/2023</td>
+              <td class="noBorder"><button class="btn-voir-profil"><a href="view-profil.html">voir le
+                    profil</a></button></td>
+              <td class="noBorder"><button class="btn-accepter">accepter</button></td>
+              <td class="noBorder"><button class="btn-refuser">refuser</button></td>
+              <td class="noBorder"><a href="mailto:tifainedeclercq@gmail.com"><button class="btn-contact">Contacter</button></a></td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </section>
+    <section class="trajetA">
+      <section class="trajet">
+        <table class="tabTrajet tabbgred" style="width :100%">
+          <thead>
+            <tr>
+              <th class="label" colspan="6">Par qui je suis conduit</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="noBorder"></td>
+              <td class="label">Nom d'utilisateur</td>
+              <td class="label">Point de depart</td>
+              <td class="label">Horaire</td>
+              <td class="label">Date</td>
+              <td class="label">Statut</td>
+            </tr>
+            <tr>
+              <td class="container-img-profil"><img src="img/user.png" id="img-profil"></td>
+              <td class="label">GU.BNN</td>
+              <td class="label">chez moi</td>
+              <td class="label">8:00</td>
+              <td class="label">23/12/2023</td>
+              <td class="noBorder"><button class="btn-accepter">accepter</button></td>
+            </tr>
+            <tr>
+              <td class="container-img-profil"><img src="img/user.png" id="img-profil"></td>
+              <td class="label">Marie.Despret</td>
+              <td class="label">le Gare</td>
+              <td class="label">7:30</td>
+              <td class="label">19/01/2024</td>
+              <td class="noBorder"><button class="btn-accepter">accepter</button></td>
+            </tr>
+            <tr>
+              <td class="container-img-profil"><img src="img/user.png" id="img-profil"></td>
+              <td class="label">JEAN.PPL</td>
+              <td class="label">la Place</td>
+              <td class="label">8:00</td>
+              <td class="label">18/12/2023</td>
+              <td class="noBorder"><button class="btn-refuser">refuser</button></td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </section>
+  </section>
+  <footer>Ankamacar© 2023 | DECLERCQ Tifaine - NOISETTE Thomas - POLLET Florian</footer>
+</body>
+
+</html>

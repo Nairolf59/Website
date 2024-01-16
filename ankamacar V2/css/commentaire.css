@@ -1,0 +1,75 @@
+.commentaire{
+    margin: 7% 20%; 
+    vertical-align: middle;
+    width:60%;
+}
+
+.ecrireCommentaire {
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 25px 50px;
+    position: relative;
+}
+
+textarea {
+    width: 80%; 
+    padding: 10px;
+    max-width: 100%;
+    line-height: 1.5;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px #999;
+    font-family: 'ankama';
+    letter-spacing: 0.5px;
+}
+
+.btn-envoyer{
+    margin-top:5%; 
+    height: 100%;
+    width:100%; 
+    background-color: lightseagreen;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+.btn-envoyer>a{
+    text-decoration: none;
+    color:white; 
+    font-family: 'ankama';
+    letter-spacing: 0.5px;
+}
+
+
+.btn-commentaire{
+    margin-top:2.5%; 
+    height: 100%;
+    width:100%; 
+    background-color: #fec80d;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+.btn-commentaire>a{
+    text-decoration: none;
+    color:white; 
+    font-family: 'ankama';
+    letter-spacing: 0.5px;
+    font-size: large;
+}
+
+input::placeholder{
+    font-family: 'ankama';
+    letter-spacing: 0.5px;
+    text-overflow: ellipsis;
+}
+
+input{
+    font-family: 'ankama';
+    letter-spacing: 0.5px;
+    width: 30%;
+}
+

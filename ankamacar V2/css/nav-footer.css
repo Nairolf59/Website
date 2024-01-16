@@ -1,0 +1,104 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'ankama';
+}
+
+
+/*pas de scroll bar apparente*/
+body::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    padding-bottom: 5%;
+}
+
+/*defini propriete de la nav bar*/
+#nav-bar {
+    position: fixed;
+    top: 0;
+    background-color: #292929;
+    color: #f5ffff;
+    height: 5%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+}
+
+#logo {
+    height: 100%;
+    width: auto;
+}
+
+#logo > img {
+    display: block;
+    height: 100%;
+    width: auto;
+}
+
+/*defini propriete de la nav bar*/
+#nav-menu {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    align-items: center;
+
+    height: 100%;
+    width: 100%;
+}
+
+/*aligner en x en y et au centre*/
+#nav-menu > * {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    width: 10%;
+    min-width: 100px;
+}
+
+/*pas d underline sur les a*/
+#nav-menu > a {
+    color: #f5ffff;
+    text-decoration: none;
+}
+
+#nav-menu > a:hover {
+    transition-duration: 500ms;
+    
+    background-color: 	#fec80d;
+    text-decoration: underline;
+    scale: 1.15;
+}
+
+#nav-menu > a:not(:hover) {
+    transition-duration: 500ms;
+    text-decoration: none;
+}
+
+/*onglet actif = en jaune avec font en rouge */
+#nav-menu > .nav-active {
+    background-color: #fec80d;
+    color: #e63a21; 
+}
+
+/* footer */ 
+footer {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #292929;
+    color: #f5ffff;
+    margin-top: 5%;
+    width: 100%;
+    bottom: 0;
+    height: 5%;
+}

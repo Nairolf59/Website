@@ -1,0 +1,120 @@
+
+
+body > section{
+    margin-top: 7%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 7%;
+    
+}
+
+.description {
+    background-color: #292929;
+    text-align: center;
+    width: 50%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px; /* 5px rounded corners */
+}
+
+.description > img{
+    opacity: 0.3; 
+    position: absolute; 
+    width: 100%;
+    max-width: 250px;
+    height: auto; 
+}
+
+.card {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    color: #fff; 
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3%;
+}
+
+
+.card > .container {
+    height: 70%; 
+    margin: 10%;
+    z-index: 2;
+}
+
+.card > .container > h1{
+    margin-bottom: 2%;
+}
+
+.card > .container > h2 > a{
+    text-decoration: underline;
+    color : #fff; 
+}
+
+.card > img {
+    width : auto;
+}
+
+.form > div{
+    padding: 2%;
+    margin-left: 15%;
+    margin-right: 15%;
+    display: flex;  
+    justify-content: center;
+}
+
+.form > div > input{
+    width: 100%; 
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    border: none; 
+    border-bottom: 1px solid #fff;
+}
+
+.btn-inscription{
+    margin-top: 7%;
+    background-color: #e63a21;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    width: 50%;
+}
+
+.btn-inscription:hover{
+    cursor: pointer;
+    background-color: #c5331c;
+}
+
+.btn-inscription > a{
+    text-decoration: none;
+    color : #fff; 
+    font-family: 'ankama';
+    letter-spacing: 0.5px;
+}
+
+.reglement{
+    text-decoration: none;
+    text-decoration: underline;
+    color: white; 
+}
+
+input{
+    font-family: 'ankama';
+    letter-spacing: 0.5px;
+    color: white; 
+}
+
+.checkBox > input {
+    position: relative;
+    width: 30px;
+    height: 30px;
+}

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ankamacar</title>
+    <link rel="stylesheet" href="./css/location.css" />
+    <link rel="stylesheet" href="./css/font.css" />
+    <link rel="stylesheet" href="./css/nav-footer.css" />
+
+</head>
+
+<body>
+    <nav id="nav-bar">
+        <div id="logo">
+            <img src="img/logo-ankamacar.png" alt="Logo Ankamacar" />
+        </div>
+        <div id="nav-menu">
+            <a href="./acceuil.html">Accueil</a>
+            <a href="./publier.html">Publier un trajet</a>
+            <a class="nav-active" href="./location.html">Service de location</a>
+            <a href="./profil.html">Profil</a>
+        </div>
+    </nav>
+    <section class="tarif">
+        <table class="tabTarif" style="width: 100%;">
+            <thead>
+                <tr>
+                    <th colspan="7">Tarif de la location</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td></td>
+                    <td>Tarif Journalier</td>
+                    <td>Tarif Semaine</td>
+                    <td>Tarif Mensuel</td>
+                    <td>Tarif Trimestriel</td>
+                    <td>Tarif Annuel</td>
+                    <td>Caution</td>
+                </tr>
+                <tr>
+                    <td>Trotinette élèctrique</td>
+                    <td>15 €</td>
+                    <td>50 €</td>
+                    <td>100 €</td>
+                    <td>400 €</td>
+                    <td>800 €</td>
+                    <td>500 €</td>
+                </tr>
+                <tr>
+                    <td>vélo</td>
+                    <td>5 €</td>
+                    <td>30 €</td>
+                    <td>80 €</td>
+                    <td>200 €</td>
+                    <td>500 €</td>
+                    <td>400 €</td>
+                </tr>
+                <tr>
+                    <td>vélo élèctrique</td>
+                    <td>10 €</td>
+                    <td>50 €</td>
+                    <td>200 €</td>
+                    <td>500 €</td>
+                    <td>800 €</td>
+                    <td>700 €</td>
+                </tr>
+                <tr>
+                    <td>Voiture élèctrique</td>
+                    <td>50 €</td>
+                    <td>200 €</td>
+                    <td>500 €</td>
+                    <td>900 €</td>
+                    <td>2500 €</td>
+                    <td>5000 €</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <section class="location">
+        <section class="paramLocation">
+            <h2>je veux louer:</h2>
+            <ul class="recup-choix">
+                <li>
+                    <input type="radio" name="quoi"></input><label>Trotinette élèctrique</label>
+                </li>
+                <li>
+                    <input type="radio" name="quoi"></input><label>Vélo</label>
+                </li>
+                <li>
+                    <input type="radio" name="quoi"></input><label>Vélo élèctrique</label>
+                </li>
+                <li>
+                    <input type="radio" name="quoi"></input><label>Voiture élèctrique</label>
+                </li>
+            </ul>
+            <h2>Combien de temps :</h2>
+            <ul class="recup-choix">
+                <li>
+                    <input type="radio" name="quand"></input><label>une journée</label>
+                </li>
+                <li>
+                    <input type="radio" name="quand"></input><label>une semaine</label>
+                </li>
+                <li>
+                    <input type="radio" name="quand"></input><label>un moi</label>
+                </li>
+                <li>
+                    <input type="radio" name="quand"></input><label>un trimestre</label>
+                </li>
+                <li>
+                    <input type="radio" name="quand"></input><label>une année</label>
+                </li>
+            </ul>
+            <article>
+                <label>Date de début d'empreint du véhicule: </label>
+                <input type="date" />
+            </article>
+            <article class="submit">
+                <button class="btn-location"><a href="location-result.html#result">Rechercher ma location</a></button>
+            </article>
+
+        </section>
+
+    </section>
+
+    <footer>Ankamacar© 2023 | DECLERCQ Tifaine - NOISETTE Thomas - POLLET Florian</footer>
+</body>
+
+</html>

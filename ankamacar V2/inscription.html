@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Ankamacar</title>
+        <link rel="stylesheet" href="./css/inscription.css" />
+        <link rel="stylesheet" href="./css/font.css" />
+        <link rel="stylesheet" href="./css/nav-footer.css" /> 
+    </head>
+
+    <body>
+        <nav id="nav-bar">
+            <div id="logo">
+                <img src="img/logo-ankamacar.png" alt="Logo Ankamacar" /> 
+            </div>
+            <div id="nav-menu">
+                <a class="nav-active" href="./inscription.html">Inscription</a>
+                <a href="./index.html">Retour</a>
+            </div>
+        </nav>
+        <section>
+            <div class="description">
+                <img src="img/logo-ankama.png" alt="Logo Ankama" />
+                <div class="card">
+                    <div class="container">
+                      <form class = "form">
+                        <div>
+                            <input type="text" name="nom" id="nom" placeholder="Nom" required />
+                        </div>
+                        <div>
+                            <input type="text" name="prenom" id="prenom" placeholder="Prénom" required />
+                        </div>
+                        <div class="choixIdentifiant">
+                            <input class ="input" type="text" name="identifiant" id="identifiant" placeholder="Identifiant" required /> 
+                        </div>
+                        <div class ="checkBox">
+                            <label>Utiliser nom.prénom en tant qu'identifiant </label>
+                            <input type="checkbox" name="identifiantPrenomNom" id="identifiantPrenomNom" required />
+                        </div>
+                        <div>
+                            <input type="email" name="mail" id="mail" placeholder="Email" required />
+                        </div>
+                        <div>
+                            <input type="tel" pattern="0[6-7][0-9]{8}" maxlength="10" name="tel" id="tel" placeholder="Telephone" required />
+                        </div>
+                        <div>
+                            <input type="text" name="adresse" id="adresse" placeholder="Adresse" required />
+                        </div>
+                        <div>
+                            <input type="password" name="mdp" id="mdp" placeholder="Mot de passe" required />
+                        </div>
+                        <div class ="checkBox">
+                            <label><a href="reglement-accepte.html" class="reglement">j'accepte le réglement et les conditions d'utilisation</a></label>
+                            <input type="checkbox" name="identifiantPrenomNom" id="identifiantPrenomNom" required />
+                        </div>
+                        <div>
+                            <button class="btn-inscription" ><a href="connexion.html">Inscription</a></button>
+                        </div>
+                      </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>Ankamacar© 2023 | DECLERCQ Tifaine - NOISETTE Thomas - POLLET Florian</footer>
+    </body>
+</html>

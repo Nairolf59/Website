@@ -1,0 +1,234 @@
+.tarif {
+    margin: 7% 10%;
+    width: 80%; 
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+.tabTarif{
+    padding: 15px; 
+}
+
+.tabTarif tr, .tabTarif td, .tabTarif th {
+    border: 1px solid #fec80d;
+    border-collapse: collapse;
+    border-radius: 25px;
+}
+
+.tabTarif th, .tabTarif td {
+    padding: 1%;
+}
+
+th{
+    background-color: #fec80d;
+    letter-spacing: 0.5px;
+}
+
+.tabTarif tbody tr:first-of-type td:first-of-type {
+    border:none !important; 
+}
+
+.reserver {
+    text-decoration: none;
+    color: white;
+}
+
+
+.location{
+    margin-left: 7%; 
+    vertical-align: middle;
+    margin-right: 7%;
+    padding-bottom: 7%;
+}
+
+.paramLocation {
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 25px 50px;
+}
+
+.paramLocation > h2 {
+    font-size: 1.5em;
+    font-weight: normal;
+}
+
+.paramLocation > .recup-choix {
+    font-size: 1.3em;
+    list-style-type: none;
+}
+
+.paramLocation > .recup-choix > li {
+    margin: 10px 0;
+}
+
+.paramLocation > .recup-choix input[type="radio"] {
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+}
+
+.paramLocation > .recup-choix label {
+    vertical-align: middle;
+}
+
+.paramLocation > .recup-choix input[type="text"] {
+    padding: 5px;
+    width: 50%;
+}
+
+.paramLocation > article > label {
+    font-size: 1.5em;
+}
+
+.paramLocation .choix-jours {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.paramLocation .choix-jours li {
+    min-width: 100px;
+}
+
+.paramLocation .choix-jours input[type="radio"] {
+    vertical-align: middle;
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+}
+
+.paramLocation .submit {
+    margin-top: 25px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.paramLocation .btn-location {
+    padding: 10px 25px;
+    border: 1px solid #fec80d;
+    border-radius: 10px;
+    background-color: #fec80d;
+    color: white;
+    font-family: 'ankama';
+    letter-spacing: 0.5px;
+    cursor: pointer;
+}
+
+.btn-location:hover{
+    background-color: rgb(205, 163, 10);
+    border-color: rgb(205, 163, 10);
+}
+
+.btn-location > a{
+    text-decoration: none;
+    color: white;
+}
+
+.paramLocation > article:first-of-type > input {
+    vertical-align: middle;
+    padding: 5px;
+    width: 50%;
+}
+
+.paramLocation > article:nth-of-type(2) > input {
+    vertical-align: middle;
+    width: 50%;
+}
+
+
+.trajet {
+    margin: 7% 2.5%;
+    width: 95%; 
+    border-radius: 25px;
+    overflow: hidden;
+    padding-bottom: 5%;
+}
+
+.tabbgred tr, .tabbgred td, .tabbgred th {
+    border: 1px solid #e63a21;
+    border-collapse: collapse;
+    border-radius: 25px;
+}
+
+.tabbgred th{
+    background-color: #e63a21;
+    letter-spacing: 0.5px;
+}
+
+.tabTrajet{
+    padding: 15px; 
+}
+
+.btn-refuser{
+    height: 100%;
+    width:100%; 
+    background-color: grey;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-family: 'ankama';
+    letter-spacing: 0.5px;
+}
+
+.btn-refuser:hover{
+    background-color: rgb(102, 101, 101);
+}
+
+.publier{
+    margin: 7% 10%;
+    vertical-align: middle;
+    padding-bottom: 20%;
+
+}
+
+.paramPublier .submit {
+    margin-top: 25px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.paramPublier {
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 25px 50px;
+}
+
+.paramPublier > h2 {
+    font-size: 1.5em;
+    font-weight: normal;
+}
+
+.paramPublier .btn-retour {
+    padding: 10px 25px;
+    border: 1px solid lightseagreen;
+    border-radius: 10px;
+    background-color: lightseagreen;
+    color: white;
+    font-family: 'ankama';
+    letter-spacing: 0.5px;
+    cursor: pointer;
+}
+
+.btn-retour:hover{
+    background-color:  rgb(28, 156, 149);
+}
+
+.btn-retour > a  {
+    text-decoration: none;
+    color: white; 
+}
+
+.label{
+    padding: 1%; 
+    max-width: 80%;
+    word-wrap: break-word;
+}
+
+.noBorder{
+    border:none !important; 
+}
+

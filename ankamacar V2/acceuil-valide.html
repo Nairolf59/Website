@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ankamacar</title>
+    <link rel="stylesheet" href="css/acceuil.css" />
+    <link rel="stylesheet" href="css/font.css" />
+    <link rel="stylesheet" href="css/nav-footer.css" />
+</head>
+
+
+
+<body>
+    <nav id="nav-bar">
+        <div id="logo">
+            <img src="img/logo-ankamacar.png" alt="Logo Ankamacar" />
+        </div>
+        <div id="nav-menu">
+            <a class="nav-active" href="./acceuil.html">Accueil</a>
+            <a href="./publier.html">Publier un trajet</a>
+            <a href="./location.html">Service de location</a>
+            <a href="./profil.html">Profil</a>
+        </div>
+    </nav>
+    <section class="chercher">
+        <section class="paramJeCherche">
+            <h2>RECHERCHE D'ANKAMACAR</h2>
+            <h2>Type de trajet:</h2>
+            <ul class="recup-choix">
+                <li>
+                    <input type="checkbox" checked></input><label>Ponctuel</label>
+                </li>
+                <li>
+                    <input type="checkbox"></input><label>Réccurent</label>
+                </li>
+            </ul>
+            <h2>Je pars :</h2>
+            <ul class="recup-choix">
+                <li>
+                    <input type="checkbox" checked></input><label>Depuis chez moi</label>
+                </li>
+                <li>
+                    <input type="checkbox" checked></input><label>Depuis un point d'arrêt</label>
+                </li>
+                <li>
+                    <input type="text" placeholder="Point d'arrêt" value="La Gare"/>
+                </li>
+            </ul>
+            <article>
+                <label>Destination : </label>
+                <input type="text" placeholder="Destination" value="Ankama"/>
+            </article>
+
+            <article>
+                <label>Je dois être à ma destination à: </label> <br />
+                <input type="time-local"  value="9:00"/> <br />
+
+                <label>Le: </label> <br />
+                <input type="date-local" value="01/02/2024"/>
+            </article>
+            <article class="submit">
+                <button class="btn-chercher"><a href="acceuil-result.html">Je cherche mon ankamacar</a></button>
+            </article>
+
+        </section>
+    </section>
+
+    <section class="resultat" id="result">
+        <h2>Résultats de la Recherche: </h2>
+        <section class="resultat-recherche">
+          <table class="tabresult tabbgred" style="width :100%">
+            <thead>
+              <tr>
+                <th class="label" colspan="8">Ankamacar trouvés</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="noBorder"></td>
+                <td class="label">Nom d'utilisateur</td>
+                <td class="label">Point de départ</td>
+                <td class="label">Horaire de départ</td>
+                <td class="label">Date</td>
+                <td class="label">Place restante</td>
+                <td class="noBorder"></td>
+              </tr>
+              <tr>
+                <td class="container-img-profil"><img src="img/user.png" id="img-profil"></td>
+                <td class="label">GU.BNN</td>
+                <td class="label">chez moi</td>
+                <td class="label">7:30</td>
+                <td class="label">01/02/2024</td>
+                <td class="label">2</td>
+                <td class="noBorder"><a href="mailto:tifainedeclercq@gmail.com"><button class="btn-contact">Contacter</button></a></td>
+                <td class="noBorder"><button class="btn-valide"><a href="acceuil-valide.html"class="postuler">Postuler</a></button></td>
+              </tr>
+              <tr>
+                <td class="container-img-profil"><img src="img/user.png" id="img-profil"></td>
+                <td class="label">Marie.Despret</td>
+                <td class="label">la Gare</td>
+                <td class="label">8:00</td>
+                <td class="label">01/02/2024</td>
+                <td class="label">1</td>
+                <td class="noBorder"><a href="mailto:tifainedeclercq@gmail.com"><button class="btn-contact">Contacter</button></a></td>
+                <td class="noBorder"><button class="btn-postuler">Postuler</button></td>
+              </tr>
+              <tr>
+                <td class="container-img-profil"><img src="img/user.png" id="img-profil"></td>
+                <td class="label">JEAN.PPL</td>
+                <td class="label">la Place</td>
+                <td class="label">8:00</td>
+                <td class="label">01/02/2024</td>
+                <td class="label">3</td>
+                <td class="noBorder"><a href="mailto:tifainedeclercq@gmail.com"><button class="btn-contact">Contacter</button></a></td>
+                <td class="noBorder"><button class="btn-postuler">Postuler</button></td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+      </section>
+    <section class="publier">
+        <section class="paramPublier">
+            <h2>Les réponses à vos demandes de covoiturage seront disponible dans votre espace profil.</h2>
+            <article class="submit">
+                <button class="btn-retour"><a href="acceuil.html">Rechercher un nouveau covoiturage</a></button>
+            </article>
+        </section>
+    </section>
+
+
+    <footer>Ankamacar© 2023 | DECLERCQ Tifaine - NOISETTE Thomas - POLLET Florian</footer>
+</body>
+
+</html>
